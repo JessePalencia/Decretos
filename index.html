@@ -26,7 +26,11 @@
       padding-left: 20px;
     }
 
-
+    @media only screen and (max-width:620px) {
+      /* For mobile phones: */
+      .menu, .main, .right {
+        width:100%;
+       }
 
 
   }
@@ -36,7 +40,7 @@
 
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -51,11 +55,11 @@
 <body>
   <center>
 
-  <img src="assets/images/SGJD_logo.png" width="600">
+  <img src="assets/images/SGJD_logo.png" width="600" style="max-width:100%;height:auto;" >
 
 
 
-      <header class="mt-0 pt-0">
+      <header class="mt-0 pt-0"  style="max-width:100%;height:auto;">
           <div class="bg-cover clearfix pt-3">
               <h2 class="logo">Decretos</h2>
               <input type="text" id="nav-search" class="nav-search mx-auto" name="" class="form-control">
